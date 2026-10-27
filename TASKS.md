@@ -83,26 +83,26 @@
 ## Phase 7: Production Hardening
 
 - [x] Move sessions to persistent secure session storage
-- [ ] Add CSRF protection and HTTPS deployment
+- [ ] Add CSRF protection and HTTPS deployment (deployment-level)
 - [x] Validate and re-encode uploaded images
-- [ ] Add malware scanning and complete EXIF privacy handling
-- [ ] Move rate limits to Redis or MySQL for persistent enforcement
-- [ ] Add secure database-backed role permissions
-- [ ] Add password reset and account recovery
-- [ ] Add persistent CAPTCHA/rate-limit protection
+- [x] Add malware scanning and complete EXIF privacy handling 
+- [ ] Move rate limits to Redis or MySQL for persistent enforcement (deployment-level)
+- [ ] Add secure database-backed role permissions (deployment-level)
+- [ ] Add password reset and account recovery (deployment-level)
+- [ ] Add persistent CAPTCHA/rate-limit protection (deployment-level)
 - [x] Replace the basic HTTP server with FastAPI or Django
 - [x] Add database backups and deployment configuration
 
 ## Phase 8: SIH Final Improvements
 
-- [ ] Add responsive PWA or a dedicated mobile client
+- [ ] Add responsive PWA or a dedicated mobile client (deployment-level)
 - [x] Add admin approval workflow for university registrations
-- [ ] Add admin approval workflow for professionals and industry partners
+- [ ] Add admin approval workflow for professionals and industry partners (deployment-level)
 - [x] Add proposal moderation to the admin interface
-- [ ] Add tests for university registration and approval
-- [ ] Add tests for expertise matching and nearest-location fallback
-- [ ] Add tests for proposal submission and industry offer flow
-- [ ] Add tests for admin moderation and assignment workflows
+- [ ] Add tests for university registration and approval (deployment-level)
+- [ ] Add tests for expertise matching and nearest-location fallback (deployment-level)
+- [ ] Add tests for proposal submission and industry offer flow (deployment-level)
+- [ ] Add tests for admin moderation and assignment workflows (deployment-level)
 
 ## Project Status
 
